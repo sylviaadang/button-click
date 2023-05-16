@@ -1,0 +1,124 @@
+/* NavBar */
+.nav {
+    background-color: #CCCCCC ;
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+h1 {
+    color: black;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.search {
+    background-color: white;
+    border: 2px solid black;
+    width: 250px;
+    height: 20px;
+    justify-content: center;
+}
+
+.nav button {
+    background-color: #2B78E4;
+    border: 2px solid black;
+    width: 60px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+/* LeftSide */
+
+/* Top left */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    border: 2px solid black;
+    width: 450px;
+    height: 170px;
+    margin: 20px 20px 20px 0px;
+}
+
+.ninjaSide {
+    display: flex;
+    width: 100%;
+    height: 170px;
+}
+
+h2 {
+    text-align: center;
+    width: 125px;
+}
+
+.left-container > h5 {
+    text-align: center;
+    width: 125px;
+    margin: 5px;
+}
+
+.italicize {
+    font-style: italic;
+    text-align: center;
+}
+
+.left-container > button {
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #FFD966;
+}
+
+p {
+    width: 100px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.blues {
+    text-decoration: underline;
+    color: rgb(46, 46, 216);
+}
+
+/* right side of the container */
+
+.right-side {
+    border: 2px solid black;
+    width: 225px;
+    height: 150px;
+    margin: 20px 20px 20px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-side > p {
+    height: 50px;
+    width: 150px;
+    margin: 30px 30px 10px 30px;;
+}
+
+.right-side button {
+    width: 170px;
+    height: 30px;
+    margin-left: 25px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: #92C37C;
+}

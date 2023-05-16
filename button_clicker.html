@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ButtonClicker</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Dojonary</h1>
+        <input placeholder="search" type=text></input>
+        <button id="loginButton" onclick="logout(this)">Login</button>
+    </div>
+
+    <!-- left side of the body portion -->
+    <div class="container">
+        <div class="left-side">
+            <!-- top left side (will separate the left & right side of top left) -->
+            <div class="left">
+                <div class="ninjaSide">
+                    <div class="left-container">
+                        <h2>ninja</h2>
+                        <h5 class="italicize">noun</h5>
+                        <h5 class="plural">Plural:<span class="italicize"> ninjas</span></h5>
+                        <button onclick="like()"> 13 Likes </button>
+                    </div>
+                    <!-- separate the paragraph to display flex -->
+                    <div class="sentence">
+                        <p>A practioner skilled in the <br> <span class="blues">Japanese</span> art of <span
+                                class="blues">ninjutsu</span></p>
+                    </div>
+                </div>
+            </div>
+    <!-- bottom left side  -->
+            <div class="bottom-left">
+                <div class="left">
+                    <div class="ninjaSide">
+                        <div class="left-container">
+                            <h2>ninja</h2>
+                            <h5 class="italicize">noun</h5>
+                            <h5 class="plural">Plural:<span class="italicize"> ninjas</span></h5>
+                            <button onclick="like()"> 37 Likes </button>
+                        </div>
+                        <!-- separate the paragraph to display flex -->
+                        <div class="sentence">
+                            <p>A <span class="blues">programmer</span> who breaks <br> down problems with <span
+                                    class="blues">zen</span>-like focus </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- right side of the container -->
+        <div class="right-side">
+            <p>Dojonary is <br> defined by <span class="bold">YOU</span></p>
+            <button id="addDefinition" onclick="addDefi(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
